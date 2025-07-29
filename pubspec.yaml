@@ -1,0 +1,53 @@
+name: color_book
+version: 1.0.0+1
+description: A cross-platform art book app for children with coloring features.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  flip_card: ^0.7.0
+  provider: ^6.0.0
+  google_fonts: ^6.1.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  image_gallery_saver: ^1.7.1
+  printing: ^5.12.0
+  flutter_tts: ^4.0.2
+  audioplayers: ^5.2.1
+  flex_color_scheme: ^7.3.1
+  cupertino_icons: ^1.0.6
+  flutter_colorpicker: ^1.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/Jumping Stars.mp3
+    - assets/photos/Apple.png
+    - assets/photos/Banana.png
+    - assets/photos/Cat.png
+    - assets/photos/Dog.png
+    - assets/photos/Elf.png
+    - assets/photos/Fish.png
+    - assets/photos/Giraffe.png
+    - assets/photos/Horse.png
+    - assets/photos/Ice cream.png
+    - assets/photos/Jug.png
+    - assets/photos/Kite.png
+    - assets/photos/Lion.png
+    - assets/photos/Mouse.png
+    - assets/photos/Necklace.png
+    - assets/photos/Orange.png
+    - assets/photos/Pencil.png
+    - assets/photos/Queen.png
+    - assets/photos/Rose.png
+    - assets/photos/Sun.png
+    - assets/photos/Torch.png
+    - assets/photos/Umbrella.png
+    - assets/photos/Violin.png
+    - assets/photos/watch.png
+    - assets/photos/Yak.png
+    - assets/photos/Zoo.png
